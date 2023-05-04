@@ -1,0 +1,43 @@
+.ribbon{
+    position: absolute;
+    margin-top: 66vh;
+    width: 100%;
+    height: 28vh;
+    background-color: rgb(60, 92, 60);
+    border-bottom: solid 5px rgb(1, 23, 1);
+    border-top: solid 5px rgb(1, 23, 1);
+    opacity: 0.6;
+    z-index: -10;
+  }
+
+.button {
+    position: relative;
+    margin-left: 25vw;
+    margin-top: 9vh;
+    height: 10vh;
+    width: 50%;
+    max-width: 60vh;
+    border: 3px solid rgb(1, 23, 1);
+    background: rgb(202, 225, 222);
+    color: rgb(2, 36, 18);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    background: rgb(135, 172, 167);
+    border-color: rgb(19, 73, 49);
+    color: rgb(4, 40, 22);
+}
+
+.triangle { 
+    position: relative;
+    object-fit: contain;
+    height: 60%;
+    width: 70%;
+    rotate: 90deg;
+    padding-bottom: 5%;
+}
+.triangle:hover {
+    opacity:0.7; 
+}
